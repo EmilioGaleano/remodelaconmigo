@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@900&display=swap');
+
+
+
+body{
+	width: 1fr;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto  auto  auto  auto  auto  auto ;
+	background:#F4F6F6;
+	text-align: center;
+	border: solid 1px black;
+	padding: 20px;
+	align-items: center;
+	font-family: 'Roboto', sans-serif;
+
+}
+.horarios{
+	display: inline-block;
+	align-content: center;
+	align-items: center;
+}
+
+#Encavezado{
+	color: white;
+	text-decoration: none;
+	text-decoration-line: none;
+	width:auto;
+	display:grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 50px;
+	padding: 20px;
+	background: #3498DB;
+	align-items: center;
+	align-content: center;
+	font-family: 'Concert One', cursive;
+}
+.aLogo{
+	color: white;
+	display: block;
+	align-items: center;
+	align-content: center;
+}
+.LogoYnumero{
+	font-size: 25px;
+	padding: -5px;
+	font-family: 'Asap Condensed', sans-serif;
+}
+
+.Horarios{
+	background: yellow;
+	text-align: center;
+}
+.Menu{
+	display: inline-block;
+	justify-content: center;
+
+}
+
+menu{
+	display: grid;
+	color: blue;
+  	grid-template-columns: repeat(4, 1fr);
+  	grid-gap: 5px;
+  	grid-auto-rows: minmax(4px, auto);
+
+  	  }
+  li{
+  	color: black;
+  	list-style: none;
+  	border: solid 1px #000;
+  	text-align: center;
+  	height:auto;
+  	border-radius: 4px;
+  	background: white; padding: 3px;
+  }
+.aMenu{
+	color:blue ;
+	font-family: 'Roboto', sans-serif;
+
+}
+  /*Seccion de PRECENTACION y TUTORIALES*/
+
+ #Precentacion{
+ 	color: white;
+ 	display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 5px;
+  grid-auto-rows: minmax(4px, auto);
+  background-image:url("../img/tit.jpg") ;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   position: relative;
+ }
+.Texto{
+	  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+}
+#SeccionDeVideos{
+
+}
+#TutosLista{
+	
+}
+
+.TutosLista{
+	
+
+}
+.caja{width: 250px;
+	height: 350px;
+	border: solid 1px #000;
+	background: white;
+	display: inline-block;
+  font-size: 20px;
+  padding: 0px;
+  margin: 10px;
+  border-radius: 5px;
+
+}
+
+.img-cards{
+	height: 150px;
+	width: 250px;
+
+
+}
+
+.img-cards:hover{
+	opacity: 0.4;
+
+}
+/*secion de Footer*/
+footer{
+	color: white;
+	background:#2C3E50;
+	padding: 5px;
+	display: grid;
+	grid-template-columns:1fr;
+	grid-template-rows: auto;
+	gap: 20px;
+	justify-content: center;
+
+
+}
+
+
+a{	
+	font-size: 12px;
+	text-decoration: none;
+	text-align: center;
+
+}
+a.five:link {color:#ff0000;text-decoration:none;}
+a.five:visited {color:#0000ff;text-decoration:none;}
+a.five:hover {text-decoration:none;}
+
+.aButton{
+}
+
+.pLogo{
+	text-align: center;
+	margin: -10px;
+}
+p{
+	font-size: 15px;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: justify;
+}
+.pTitulos{
+	background:white ;
+	border: solid 1px #000;
+	text-align: justify;
+	padding: 20px;
+}
+
+/*Botones*/
+
+.boton-tajeta-abajo{
+	display: grid;
+	grid-template-columns: 50px 1fr;
+	grid-template-rows: 40px;
+	justify-content: center;
+	align-items: center;
+
+}
+.button-tarjetas{
+	width: 95%;
+	height: 35px;
+	border: solid 1px #000;
+	border-radius: 2px;
+	background: #3498DB;
+	color: white;
+	 align-items: center;
+  justify-content: center;
+  transition: 0.5;
+}
+.button-tarjetas:hover{
+	background: #17A589;
+}
+.buttonService{
+	color: white;
+	font-size: 20px;
+	background:#3498DB ;
+	margin-top: 10px;
+	padding: 5px;
+	border: solid 1px #000;
+	border-radius: 30px;
+	transition: 0.5;
+	font-family: sans-serif;
+}
+.buttonService:hover{
+	background: #17A589;
+}
+h1,h2,h3,h4,h5,h6{
+	padding: 0;
+	margin: 0;
+}
+
+h4{
+	text-decoration: underline;
+	font-family: 'Asap Condensed', sans-serif;
+
+}
+
+h2{
+	background:#17A589 ;
+	color: white;
+	padding: 1%;
+}
+
+
+/***Icons***/
+.iconWathsapp{
+	background: url("../img/wathsapp.png");
+	width: 25px;
+	height: 25px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: right;
+
+}
